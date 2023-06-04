@@ -1,0 +1,16 @@
+ 
+user schema
+login 
+signup -> user , admin
+(email and password, google , github auth)
+jwt authentication
+
+problem schema
+admin -> create new problem
+get all problems
+submit the solution for a problem 
+
+reset password
+update profile(Image , username) Cloudinary
+
+deployment dockerization 
