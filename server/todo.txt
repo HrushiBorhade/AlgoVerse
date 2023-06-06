@@ -1,16 +1,17 @@
- 
 user schema
-login 
 signup -> user , admin
+login 
 (email and password, google , github auth)
 jwt authentication
+bcryptjs for password
+
+reset password
+update profile(Image , username) Cloudinary
+
 
 problem schema
 admin -> create new problem
 get all problems
 submit the solution for a problem 
-
-reset password
-update profile(Image , username) Cloudinary
 
 deployment dockerization 
