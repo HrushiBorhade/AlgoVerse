@@ -63,5 +63,10 @@ const loginUser = asyncHandler(async (req, res) => {
     throw new Error("email or password is not valid");
   }
 });
-
-module.exports = { registerUser, loginUser };
+//@desc Current user Information
+//@route GET /api/user/info
+//@access private
+const currentUser = (req, res) => {
+  res.status(200).json(req.user);
+};
+module.exports = { registerUser, loginUser, currentUser };
